@@ -1,0 +1,8 @@
+Commands practiced:
+
+whoami
+groups
+ls -l
+chmod +x app.sh
+chmod 600 app.sh
+chmod 755 app.sh
