@@ -1,0 +1,11 @@
+Linux Security Commands Practiced
+
+whoami
+sudo -l
+chmod 600 secret.key
+cat /etc/ssh/sshd_config
+sudo systemctl restart ssh
+sudo ufw status
+sudo ufw allow ssh
+sudo ufw allow 80
+sudo ufw enable
