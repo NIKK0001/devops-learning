@@ -1,0 +1,12 @@
+Linux + Git Commands Practiced
+
+ls -a
+ls .git
+git status
+git add
+git commit
+git log --oneline
+git clone
+git pull
+git fetch
+git revert
