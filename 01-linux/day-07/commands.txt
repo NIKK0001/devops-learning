@@ -1,0 +1,15 @@
+Process & Service Commands Practiced
+
+ps
+ps -ef
+ps -ef | grep nginx
+top
+htop
+kill PID
+kill -9 PID
+jobs
+fg
+systemctl status
+systemctl restart
+systemctl enable
+
