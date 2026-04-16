@@ -1,0 +1,12 @@
+Performance & Resource Commands Practiced
+
+df -h
+df -i
+du -sh *
+sudo du -ah /var | sort -rh | head -10
+free -m
+free -h
+top
+htop
+swapon --show
+iostat
