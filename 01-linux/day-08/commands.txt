@@ -1,0 +1,10 @@
+Networking Commands Practiced
+
+ip a
+ping google.com
+nslookup google.com
+ss -tuln
+ss -tuln | grep 80
+curl http://localhost
+curl -v http://localhost
+nc -zv localhost 80
