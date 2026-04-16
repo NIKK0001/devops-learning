@@ -1,0 +1,7 @@
+Cron Commands Practiced
+
+crontab -l
+crontab -e
+* * * * * echo "cron test" >> /tmp/cron_test.log
+*/5 * * * * /home/ubuntu/cron_script.sh
+grep cron /var/log/syslog
