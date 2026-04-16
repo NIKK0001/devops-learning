@@ -1,0 +1,11 @@
+Log & Monitoring Commands Practiced
+
+ls /var/log
+tail /var/log/syslog
+tail -f /var/log/syslog
+less /var/log/syslog
+grep ERROR /var/log/syslog
+journalctl
+journalctl -u nginx
+journalctl -u nginx -f
+journalctl -b
