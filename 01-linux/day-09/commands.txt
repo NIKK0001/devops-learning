@@ -1,0 +1,10 @@
+Advanced Networking Commands Practiced
+
+cat /etc/hosts
+cat /etc/resolv.conf
+nslookup google.com
+traceroute google.com
+ip a
+curl ifconfig.me
+sudo ufw status
+sudo ufw allow 80
