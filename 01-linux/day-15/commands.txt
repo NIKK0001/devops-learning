@@ -1,0 +1,11 @@
+Production Debugging Commands Used
+
+df -h
+free -m
+top
+systemctl status nginx
+journalctl -u nginx
+ss -tuln
+curl http://localhost
+sudo ufw status
+sudo systemctl restart nginx
