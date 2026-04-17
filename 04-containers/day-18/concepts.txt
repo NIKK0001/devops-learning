@@ -1,0 +1,17 @@
+Container Concepts Summary
+
+Container:
+- Lightweight isolated runtime
+- Shares host OS kernel
+
+Image:
+- Read-only template
+- Used to create containers
+
+Registry:
+- Stores container images
+- Example: Docker Hub
+
+Container vs VM:
+- Containers are faster and lighter
+- VMs require full OS per application
