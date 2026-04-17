@@ -1,0 +1,5 @@
+CI/CD Simulation Commands
+
+chmod +x pipeline.sh
+./pipeline.sh
+export TEST_RESULT=failexport TEST_RESULT=fail
