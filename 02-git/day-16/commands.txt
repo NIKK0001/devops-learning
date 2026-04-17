@@ -1,0 +1,14 @@
+Git Internals & Workflow Commands Practiced
+
+ls -a
+ls .git
+cat .git/HEAD
+git status
+git add
+git commit
+git branch
+git clone
+git fetch
+git pull
+git tag
+git revert
