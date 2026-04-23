@@ -1,0 +1,22 @@
+Docker Day-19 Commands
+
+sudo apt update
+sudo apt install docker.io
+docker --version
+systemctl status docker
+
+docker run hello-world
+docker images
+docker ps
+docker ps -a
+
+docker run -d -p 8080:80 nginx
+curl http://localhost:8080
+
+docker stop <container_id>
+docker start <container_id>
+docker rm <container_id>
+docker rmi nginx
+
+sudo usermod -aG docker ubuntu
+newgrp docker
