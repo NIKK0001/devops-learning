@@ -1,0 +1,6 @@
+Docker Day-20 Commands
+
+docker build -t my-nginx:v1 .
+docker images
+docker run -d -p 8081:80 my-nginx:v1
+curl http://localhost:8081
